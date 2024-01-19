@@ -1,6 +1,6 @@
 #include <rdm6300.h>
 #define RDM_RX 10 //Pino RX do controlador para o TX do Leitor
-const int relay = 8; //Relé para a tranca (PROERD É UM PROBLEMA, AS DROGAS SÃO A SOLUÇÃO)
+const int relay = 8; //Relé para a tranca
 const int buzzer = 12;
 Rdm6300 rdm6300;
 long int reader = rdm6300.get_tag_id(); //Endereço de memória para UID sendo lido.
